@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #2d6a4f;
+  --secondary-color: #40916c;
+  --accent-color: #d81159;
+  --text-dark: #1b2021;
+  --text-light: #f1faee;
+  --bg-light: #f8f9fa;
+  --color-theme-green: #4CAF50;
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
